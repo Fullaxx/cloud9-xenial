@@ -3,7 +3,7 @@
 # Thanks to https://github.com/tghastings/cloud9-docker
 # ------------------------------------------------------------------------------
 # Pull base image.
-FROM ubuntu:16.04
+FROM ubuntu:xenial
 MAINTAINER Brett Kuskie <fullaxx@gmail.com>
 
 # ------------------------------------------------------------------------------
