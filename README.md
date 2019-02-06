@@ -11,7 +11,7 @@ Download an automated build from the public Docker Hub Registry:
 
 ## Usage
 
-    docker run -d -p 80:80 fullaxx/cloud9-xenial-docker
+    docker run -d -p 80:80 fullaxx/cloud9-xenial
 
 You can add a workspace as a volume directory with the argument *-v /your-path/c9ws/:/c9ws/* like this :
 
