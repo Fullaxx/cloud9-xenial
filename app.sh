@@ -1,6 +1,7 @@
 #!/bin/sh
 
 NODE_ENV="production"
+export PATH="${PATH}:/root/.c9/node/bin"
 
 unset C9AUTH
 if [ -n ${C9USER} ] && [ -n ${C9PASS} ]; then
